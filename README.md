@@ -16,4 +16,4 @@ Model experimentation led to the following insights:
 - A balanced approach to growing of training and validation metrics equally during training provided stable and reliable results.
 - Experimentation with hyperparameters and architectural modifications showed that a simpler model architecture with appropriate regularization achieved competitive scoring.
 - Overly complex models or excessive regularization did not necessarily improve performance.
-- Claims of extremely high accuracies (>94%) on unseen data found misleading. Realistic test accuracy on this dataset is around 88%.
+- Some claims of extremely high accuracies (>94%) on unseen data without pretrained embeddings found misleading (after testing provided code). Realistic test accuracy without pretrained embeddings on this dataset is around 88%.
