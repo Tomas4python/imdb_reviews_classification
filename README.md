@@ -7,7 +7,8 @@ This repository contains a Keras implementation for sentiment analysis on the IM
 The models are built using the Keras Sequential API with various architectures ranging from simple Dense networks to more complex structures involving Embeddings and LSTM layers.
 
 ## Repository Sructure
-- ***keras_imdb_pp6.ipynb***: A Keras-based notebook for the classification task on the keras imdb dataset.
+- ***keras_imdb_50_50.ipynb***: A Keras-based notebook for the classification task on the keras imdb dataset with original train/test (50%/50%) split - stable results 87-88% test accuracy.
+- ***keras_imdb_85_15.ipynb***: A Keras-based notebook for the classification task on the keras imdb dataset with changed train/test (85%/15%) split -stable results 89% test accuracy.
 - ***model_performance_metrics_imdb.xlsx***: An Excel file documenting the performance metrics of the keras imdb model.
   
 ## Results
